@@ -1,0 +1,34 @@
+# Binaries
+*.exe
+*.out
+*.o
+*.so
+*.a
+*.dll
+
+# Go cache and build artifacts
+/bin/
+/pkg/
+/build/
+*.test
+*.prof
+
+# Vendor directory (if not committing dependencies)
+vendor/
+
+# Dependency management files (if using go modules)
+go.sum
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files (secrets, API keys)
+.env
+.env.*
